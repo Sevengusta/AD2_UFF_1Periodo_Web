@@ -1,0 +1,131 @@
+body {
+    background-color: #EEBB88;
+    width: 820px;
+    color: #402020;
+    font-family: 'stoke', Lucida, 'Ubuntu';   
+}
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+header .ender { 
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: 'Karla', Verdana, 'Ubuntu';
+    
+}
+header .imglogo {
+    border-bottom: 3px solid #402020;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+nav ul {
+    list-style-type: circle;
+    color: #332277;
+    line-height: 230%;
+    margin-top: 40px;
+}
+/* section modificado */
+section {
+    display: block;
+    float: right;
+}
+a {
+    text-decoration: underline;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link,
+a:visited {
+    color:  #603030;
+}
+ol,
+ul {
+    line-height: 200%;
+}
+
+.apres {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* exercício 3 */
+h3{
+    text-align: center;
+}
+.listaMaq {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    color:  #402020;
+    background-color: #EEDDCC;
+    padding: 10px 50px 10px 10px;
+    border: 2px solid #402020;
+    
+}
+.listaMaq ul {
+    list-style-type: square;
+    color:  #402020;
+}
+.listaMaq .preco {
+    color: #CC0000;
+}
+
+
+/* exercício 4 */
+.tabCap {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin-top: 6px;
+    font-size: 15px;
+    background: #EEDDCC;
+    color: #402020 ;
+    font-family: 'Ubuntu', Verdana, 'Karla';
+    font-weight: bold;
+}
+.tabCap th {
+    border: 3px solid #888888;
+    padding: 6px 12px 6px 12px;
+}
+.tabCap td {
+    border: 3px solid #000066;
+    padding: 6px 12px 6px 12px;
+}
+.tabCap .preco {
+    color: #CC0000;
+}
+.tabCap .linTH {
+    color: #FFFFFF;
+    background-color: #402020;
+    text-align: center;
+}
+.tabCap .colTH {
+    color: #FFFFFF;
+    border: 3px solid #888888;
+    background-color: #804040;
+    text-align: left;
+
+}
+.tabCap .imgCel {
+    background-color: #fff;
+}
+.menuTab {
+    height: 52px;
+}
+#celDes {   
+    text-align: center;
+    width: 170px;
+}
+#imgDes {
+    margin: auto;
+    width: 140px;
+}

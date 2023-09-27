@@ -1,0 +1,57 @@
+body {
+    background-color: #EEBB88;
+    width: 820px;
+    color: #402020;
+    font-family: 'stoke', Lucida, 'Ubuntu';   
+}
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+header .ender { 
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: 'Karla', Verdana, 'Ubuntu';
+    
+}
+header .imglogo {
+    border-bottom: 3px solid #402020;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+nav ul {
+    list-style-type: circle;
+    color: #332277;
+    line-height: 230%;
+    margin-top: 40px;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+a {
+    text-decoration: underline;
+    text-decoration: none;
+}
+a:link,
+a:visited {
+    color:  #603030;
+}
+ol,
+ul {
+    line-height: 200%;
+}
+
+.apres {
+    text-align: center;
+    font-size: 16px;
+}

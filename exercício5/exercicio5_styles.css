@@ -1,0 +1,232 @@
+body {
+    background-color: #EEBB88;
+    width: 820px;
+    color: #402020;
+    font-family: 'stoke', Lucida, 'Ubuntu';   
+}
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+header .ender { 
+    float: right;
+    text-align: right;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: 'Karla', Verdana, 'Ubuntu';
+    
+}
+header .imglogo {
+    border-bottom: 3px solid #402020;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+nav ul {
+    list-style-type: circle;
+    color: #332277;
+    line-height: 230%;
+    margin-top: 40px;
+}
+/* section modificado */
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+a {
+    text-decoration: underline;
+    text-decoration: none;
+}
+a:link,
+a:visited {
+    color:  #603030;
+}
+ol,
+ul {
+    line-height: 200%;
+}
+
+.apres {
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* exercício 3 */
+h3{
+    text-align: center;
+}
+.listaMaq {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    color:  #402020;
+    background-color: #EEDDCC;
+    padding: 10px 50px 10px 10px;
+    border: 2px solid #402020;
+    
+}
+.listaMaq ul {
+    list-style-type: square;
+    color:  #402020;
+}
+.listaMaq .preco {
+    color: #CC0000;
+}
+
+
+/* exercício 4 */
+.tabCap {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin-top: 6px;
+    font-size: 15px;
+    background: #EEDDCC;
+    color: #402020 ;
+    font-family: 'Ubuntu', Verdana, 'Karla';
+    font-weight: bold;
+}
+.tabCap th {
+    border: 3px solid #888888;
+    padding: 6px 12px 6px 12px;
+}
+.tabCap td {
+    border: 3px solid #000066;
+    padding: 6px 12px 6px 12px;
+}
+.tabCap .preco {
+    color: #CC0000;
+}
+.tabCap .linTH {
+    color: #FFFFFF;
+    background-color: #402020;
+    text-align: center;
+}
+.tabCap .colTH {
+    color: #FFFFFF;
+    border: 3px solid #888888;
+    background-color: #804040;
+    text-align: left;
+
+}
+.tabCap .imgCel {
+    background-color: #fff;
+}
+.tabCap img {
+    width: 60px;
+    height: 60px;
+}
+
+
+/* exercício 5 */
+.FormBox {
+    width: 540px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #EEDDCC;
+    border: solid 3px #000055;
+    font-style: 16px;
+    font-family: 'Ubuntu', Verdana
+}
+/* fieldsets */
+.FormBox .FSLinhaInteira {
+    width: 510px;
+    text-align: left;
+}
+.FSEsq {
+    display: inline;
+    margin: 0px;
+    float: left;
+}
+
+.FSDir {
+    display: inline;
+    margin: 0px;
+    float: right;
+}
+/* boxes */
+.FormBox .LinhaForm {
+    margin: 0;
+    height: 30px;
+    padding: 6px 3px 0px 3px
+}
+.FormBox .ColEsq {
+    width: 180px;
+    float: left;
+    display: block;
+}
+.FormBox .ColDir {
+    width: 130px;
+    float: right;
+    display: block;
+}
+.FormBox .ColDir button {
+    float: right;
+}
+.FormBox .LabBox {
+    width: 130px;
+    float: left;
+    display: block;
+}
+.botoes {
+    text-align: right;
+    margin: 20px 10px 0px 10px;
+}
+/* valores */
+.FormBox .InpBoxMed {
+    width: 80px;
+}
+.numDD {
+    width: 35px;
+}
+.FormBox .ColEsqSelProd {
+    width: 360px;
+    float: left;
+    display: block;
+}
+.FormBox .LabBoxSel {
+    width: 90px;
+    float: left;
+    display: block;
+}
+.FormBox .LabBoxQtd {
+    width: 40px;
+    float: left;
+    display: block;
+}
+.FormBox .ColEsqValUnit {
+    width: 250px;
+    float: left;
+    display: block;
+}
+.FormBox .InpBoxMedLeft {
+    display: block;
+    width: 80px;
+    float: left;
+}
+
+/* identificadores */
+.FormBox .SelMaquina {
+    width: 75%;
+}
+.FormBox .SelCapsula {
+    width: 75%;
+}
+.FormBox .boxPedidos{
+    width: 100%;
+    height: 70px;
+}
+.FormBox .lisPedArea{
+    width: 100%;
+    height: 90%;
+}
+
+
+
